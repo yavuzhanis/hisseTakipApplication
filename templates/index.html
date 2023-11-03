@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Hisse Senedi Takip Aracı</title>
+</head>
+
+<body>
+    <form id="add-ticker-form">
+        <input type="text" id="new-ticker" placeholder="Add Ticker" required>
+        <button type="submit">Add</button>
+    </form>
+    <p id="timer">Next Update in <span id="counter"></span> seconds</p>
+    <div id="tickers-grid">
+        
+    </div>
+
+    <script src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+</html>

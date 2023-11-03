@@ -1,0 +1,69 @@
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.5s;
+    background: goldenrod;
+}
+
+.dark-red {
+    color: #880000;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.gray {
+    color: #808080;
+}
+
+.dark-green {
+    color: #008000;
+}
+
+.green {
+    color: #00FF00;
+}
+
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.5s;
+    background: rgb(242, 241, 237);
+}
+
+.updated {
+    transition: background-color 1s;
+    background-color: #FFCCCC !important;
+}
+
+.red-flash {
+    transition: background-color 1s;
+    background-color: #FFCCCC !important;
+}
+
+.green-flash {
+    transition: background-color 1s;
+    background-color: #CCFFCC;
+}
+
+.gray-flash {
+    transition: background-color 1s;
+    background-color: #808080;
+}
